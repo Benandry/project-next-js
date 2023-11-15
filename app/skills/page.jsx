@@ -21,7 +21,7 @@ export default function Page() {
         <div className="text-center p-10">
           <h2 className="text-2xl font-bold">Formations professionnelle</h2>
         </div>
-        <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-40">
+        <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-20">
           {DIPLOMES.map(({ title, description, year, style }, index) => {
             return (
               <CardDiplome
@@ -37,7 +37,7 @@ export default function Page() {
         <div className="text-center p-10">
           <h2 className="text-2xl font-bold">Autre formations</h2>
         </div>
-        <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-40">
+        <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-20">
           {DIPLOMES_OTHERS.map(({ title, link, imgSrc, style }, index) => {
             return (
               <CardOther
