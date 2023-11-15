@@ -1,14 +1,29 @@
+"use client";
 import { my_photo } from "@/Images";
+import AOS from "aos";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <main className="flex h-screen flex-col items-center justify-between py-5 bg-blue-200 ">
       <div className="w-full">
         <div className=" p-10">
           <div className="flex flex-col md:flex-row items-center justify-center ">
-            <div className="flex-none basis-1/2 ">
+            <div
+              data-aos="fade-down"
+              data-aos-anchor-placement="center-bottom"
+              className="flex-none basis-1/2 "
+            >
               <h3 className="text-gray-500 font-medium">
                 {" "}
                 Hello voici mon portfolio
@@ -38,7 +53,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex-none basis-1/2 border rounded-full overflow-hidden border-gray-600">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              className="flex-none basis-1/2 border rounded-full overflow-hidden border-gray-600"
+            >
               <Image
                 src={my_photo.src}
                 loading="lazy"
