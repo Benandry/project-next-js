@@ -45,3 +45,87 @@ export const DIPLOMES_OTHERS = [
     style: "zoom-in-up",
   },
 ];
+
+export const STACK_BACK = [
+  {
+    stack_name: "PHP",
+    progress: 80,
+  },
+  {
+    stack_name: "Javascript",
+    progress: 70,
+  },
+  {
+    stack_name: "Typescript",
+    progress: 60,
+  },
+
+  {
+    stack_name: "C++",
+    progress: 45,
+  },
+];
+
+export const STACK_FRONT = [
+  {
+    stack_name: "HTML",
+    progress: 80,
+  },
+  {
+    stack_name: "CSS",
+    progress: 80,
+  },
+  {
+    stack_name: "Javascript",
+    progress: 80,
+  },
+];
+
+export const FRAMEWORKS_BACK = [
+  {
+    stack_name: "Symfony",
+    progress: 80,
+  },
+  {
+    stack_name: "Express JS",
+    progress: 60,
+  },
+];
+
+export const FRAMEWORKS_FRONT = [
+  {
+    stack_name: "React JS",
+    progress: 80,
+  },
+  {
+    stack_name: "Next JS",
+    progress: 60,
+  },
+  {
+    stack_name: "Angular JS",
+    progress: 60,
+  },
+];
+
+export const NAV_LINK = [
+  {
+    link: "Accueil",
+    root: "/#home",
+  },
+  {
+    link: "À propos",
+    root: "/#about",
+  },
+  {
+    link: "Formation",
+    root: "/#formation",
+  },
+  {
+    link: "Techonologie",
+    root: "/#tech",
+  },
+  {
+    link: "Contact",
+    root: "/#contact",
+  },
+];
