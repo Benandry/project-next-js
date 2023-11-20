@@ -5,6 +5,7 @@ import Link from "next/link";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+import { faComment } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   useEffect(() => {
     AOS.init({
@@ -17,9 +18,9 @@ const About = () => {
     <section id="about">
       <main className="flex flex-col items-center justify-between py-10 ">
         <div className="w-full">
-          <TitlePage title="À propos de moi" />
+          <TitlePage icon={faComment} title="À propos de moi" />
         </div>
-        <div data-aos="zoom-out-down" className="px-14">
+        <div data-aos="fade-down" className="px-14">
           <p className="text-center text-gray-600 font-normal ">
             {" "}
             Je m'appelle{" "}

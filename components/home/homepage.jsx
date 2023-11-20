@@ -62,10 +62,8 @@ const Homepage = () => {
             >
               <Image
                 src={my_photo.src}
-                loading="lazy"
                 width={500}
-                height={600}
-                objectFit="cover"
+                height={500}
                 alt=" My photo"
               />
             </div>

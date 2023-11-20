@@ -3,6 +3,7 @@ import { CardDiplome } from "@/components/CardDiplome";
 import { CardOther } from "@/components/CardOther";
 import TitlePage from "@/components/TitlePage";
 import { DIPLOMES, DIPLOMES_OTHERS } from "@/constants/data";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 
 import "aos/dist/aos.css";
@@ -20,7 +21,10 @@ export default function Skills() {
     <section id="formation">
       <main className="flex flex-col items-center justify-between py-10">
         <div className="w-full">
-          <TitlePage title="Formations professionnelle" />
+          <TitlePage
+            icon={faGraduationCap}
+            title="Formations professionnelle"
+          />
           <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-20">
             {DIPLOMES.map(({ title, description, year, style }, index) => {
               return (
@@ -35,7 +39,7 @@ export default function Skills() {
             })}
           </div>
           <div className="text-center p-10">
-            <h2 className="text-2xl font-bold">Autre formations</h2>
+            <TitlePage icon={faGraduationCap} title="Autre formations" />
           </div>
           <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-20">
             {DIPLOMES_OTHERS.map(({ title, link, imgSrc, style }, index) => {

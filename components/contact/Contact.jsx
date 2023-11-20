@@ -6,6 +6,9 @@ import Image from "next/image";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import TitlePage from "@/components/TitlePage";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import LinkContact from "@/helpers/LinkContact";
+import { CONTACT_, GitLink } from "@/constants/data";
 export default function Contact() {
   useEffect(() => {
     AOS.init({
@@ -19,7 +22,7 @@ export default function Contact() {
       {" "}
       <main className="flex flex-col items-center justify-between py-10 h-screen">
         <div className="w-full">
-          <TitlePage title="Mon contact" />
+          <TitlePage icon={faPhone} title="Mon contact" />
           <div className="flex flex-col md:flex-row justify-center items-center md:px-20">
             <div data-aos="fade-down" className="basis-1/2 ">
               <h3 className="text-xl  text-gray-700 font-bold ">
@@ -33,45 +36,19 @@ export default function Contact() {
                     </h4>
                     <div className="text-md font-normal text-gray-700 md:leading-10 ">
                       <div className="flex flex-col ">
-                        <div className=" text-sm px-3 font-normal ">
-                          Mobile :
-                          <a
-                            href="tel:+261346055929"
-                            className="text-blue-600 visited:text-purple-600 px-2"
-                          >
-                            034 60 559 29
-                          </a>
-                        </div>
-                        <div className=" text-sm px-3 py-2 py-2font-normal ">
-                          {" "}
-                          Email :
-                          <a
-                            href="mailto:nandry556@mail.com"
-                            className="text-blue-600 visited:text-purple-600 px-2"
-                          >
-                            nandry556@mail.com
-                          </a>
-                        </div>
-                        <div className=" text-sm px-3 py-2 font-normal ">
-                          Facebook :
-                          <a
-                            href="https://www.facebook.com/nandry.multiplix"
-                            className="text-blue-600 visited:text-purple-600 px-2"
-                            target="_blank"
-                          >
-                            Herinandrianina Andriamihaingo
-                          </a>
-                        </div>
-                        <div className=" text-sm px-3 py-2 font-normal ">
-                          Linkedin :
-                          <a
-                            href="https://www.linkedin.com/in/herinandrianina-randriamihaingo-566007254/"
-                            className="text-blue-600 visited:text-purple-600 px-2"
-                            target="_blank"
-                          >
-                            Herinandrianina RANDRIAMIHAINGO
-                          </a>
-                        </div>
+                        {CONTACT_.map(
+                          ({ icon, content, link, title }, index) => {
+                            return (
+                              <LinkContact
+                                key={index}
+                                icon={icon}
+                                content={content}
+                                link={link}
+                                title={title}
+                              />
+                            );
+                          }
+                        )}
                       </div>
                     </div>
                   </div>
@@ -81,27 +58,19 @@ export default function Contact() {
                     </h4>
                     <div className="text-md font-normal text-gray-700 md:leading-8 ">
                       <div className="flex flex-col ">
-                        <div className=" text-sm px-3 font-normal ">
-                          Githubs :
-                          <a
-                            href="https://github.com/Benandry"
-                            className="text-blue-600 visited:text-purple-600 px-2"
-                            target="_blank"
-                          >
-                            Compte github
-                          </a>
-                        </div>
-                        <div className=" text-sm px-3 py-2 font-normal ">
-                          {" "}
-                          GitLab :
-                          <a
-                            href="https://gitlab.com/Herinandrianina"
-                            className="text-blue-600 visited:text-purple-600 px-2"
-                            target="_blank"
-                          >
-                            Compte gitlab
-                          </a>
-                        </div>
+                        {GitLink.map(
+                          ({ icon, content, link, title }, index) => {
+                            return (
+                              <LinkContact
+                                key={index}
+                                icon={icon}
+                                content={content}
+                                link={link}
+                                title={title}
+                              />
+                            );
+                          }
+                        )}
                       </div>
                     </div>
                   </div>

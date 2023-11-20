@@ -1,4 +1,18 @@
 import { advanced, intermediate, intro } from "@/Images";
+import {
+  faFacebook,
+  faGithub,
+  faGitlab,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faCode,
+  faEnvelope,
+  faGraduationCap,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
 export const DIPLOMES = [
   {
@@ -111,21 +125,69 @@ export const NAV_LINK = [
   {
     link: "Accueil",
     root: "/#home",
+    icon: faHome,
   },
   {
     link: "À propos",
     root: "/#about",
+    icon: faInfoCircle,
   },
   {
     link: "Formation",
     root: "/#formation",
+    icon: faGraduationCap,
   },
   {
     link: "Techonologie",
     root: "/#tech",
+    icon: faCode,
   },
   {
     link: "Contact",
     root: "/#contact",
+    icon: faPhone,
+  },
+];
+
+export const CONTACT_ = [
+  {
+    icon: faPhone,
+    content: "034 60 559 29",
+    link: "tel:+261346055929",
+    title: "Mobile",
+  },
+  {
+    icon: faEnvelope,
+    content: "nandry556@gmail.com",
+    link: "mailto:nandry556@gmail.com",
+    title: "Email",
+  },
+  {
+    icon: faFacebook,
+    content: "Herinandrianina Andriamihaingo",
+    link: "https://www.facebook.com/nandry.multiplix",
+    title: "Facebook",
+  },
+
+  {
+    icon: faLinkedin,
+    content: "Herinandrianina RANDRIAMIHAINGO",
+    link: "https://www.linkedin.com/in/herinandrianina-randriamihaingo-566007254/",
+    title: "Linkedin",
+  },
+];
+
+export const GitLink = [
+  {
+    icon: faGithub,
+    content: "Compte github",
+    link: "https://github.com/Benandry",
+    title: "Github",
+  },
+  {
+    icon: faGitlab,
+    content: "Compte gitlab",
+    link: "https://gitlab.com/Herinandrianina",
+    title: "Gitlab",
   },
 ];

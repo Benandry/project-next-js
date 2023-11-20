@@ -7,6 +7,7 @@ import {
   Skills,
   Techno,
 } from "@/components";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 export default function Page() {
   return (

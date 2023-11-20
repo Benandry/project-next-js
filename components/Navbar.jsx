@@ -1,8 +1,8 @@
 "use client";
 
 import { NAV_LINK } from "@/constants/data";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
+import NavLink from "@/helpers/NavLink";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -15,14 +15,8 @@ const Navbar = () => {
         <div className="basis-2/3">
           <div className="flex justify-center flex-col ">
             <div className="flex justify-around  ">
-              {NAV_LINK.map(({ link, root }, index) => (
-                <Link
-                  key={index}
-                  href={root}
-                  className={`text-white border-b-2 border-transparent hover:border-b-gray-100 `}
-                >
-                  {link}
-                </Link>
+              {NAV_LINK.map(({ link, root, icon }, index) => (
+                <NavLink key={index} link={link} root={root} icon={icon} />
               ))}
             </div>
           </div>

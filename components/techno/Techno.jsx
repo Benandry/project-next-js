@@ -11,6 +11,7 @@ import {
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 export default function Techno() {
   useEffect(() => {
     AOS.init({
@@ -23,7 +24,7 @@ export default function Techno() {
     <section id="tech">
       <main className="flex flex-col items-center justify-between py-10 ">
         <div className="w-full">
-          <TitlePage title="Techno utilisée" />
+          <TitlePage icon={faCode} title="Techno utilisée" />
           <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-20">
             <CardStack
               style="zoom-in-down"
