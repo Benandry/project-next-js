@@ -1,7 +1,7 @@
 import { graduation } from "@/Images";
 import Image from "next/image";
 
-export const CardDiplome = ({ title, description, year, style }) => {
+export const CardDiplome = ({ title, parcour, year, style, index }) => {
   return (
     <div
       data-aos={style}
@@ -20,8 +20,22 @@ export const CardDiplome = ({ title, description, year, style }) => {
             alt={title}
           />
         </div>
-        <div className="text-gray-600  text-sm p-4 ">{description}</div>
-        <div className="text-gray-600  text-sm p-4 ">{year}</div>
+        <div className="text-gray-600  text-md px-4 py-1 ">
+          <h3 className="font-medium">
+            Titre : <span className="font-semibold ">{title}</span>{" "}
+          </h3>
+        </div>
+        <div className="text-gray-600  text-md px-4 py-1 ">
+          <h3 className="font-medium ">
+            {index === 2 ? "Série " : "Parcours"} :
+            <span className="font-semibold ">{parcour}</span>{" "}
+          </h3>
+        </div>
+        <div className="text-gray-600  text-sm p-4 font-semibold ">
+          <h3 className="font-medium">
+            Année scolaire : <span className="font-semibold ">{year}</span>{" "}
+          </h3>
+        </div>
       </div>
     </div>
   );

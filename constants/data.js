@@ -27,22 +27,22 @@ import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 export const DIPLOMES = [
   {
     title: "Master II",
-    description:
-      "Master I (Bac + 4) Informatiques parcours Base de Donnée et GénieLogiciel au CNTEMAD",
+    parcour: "Base de Donnée et Génie Logiciel",
+    school: "Centre National  de Télé-Enseignement de Madagascar",
     year: "2023 - 2024",
     style: "zoom-in-down",
   },
   {
     title: "Licence professionnelle",
-    description:
-      "Diplôme Licence en informatique (Bases de données et Génie Logiciel) au Centre de Télé-Enseignement de Madagascar",
+    parcour: " Bases de données et Génie Logiciel",
+    school: "Centre National  de Télé-Enseignement de Madagascar",
     year: "2020-2021",
     style: "fade-down",
   },
   {
     title: "Baccalauréat",
-    description:
-      "Diplôme du baccalauréat série C au Lycée Saint Joseph Ivato Aéroport",
+    parcour: "série C ",
+    school: "Lycée Saint Joseph Ivato Aéroport",
     year: "2017-2018",
     style: "zoom-in-up",
   },

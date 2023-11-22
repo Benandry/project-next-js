@@ -26,12 +26,13 @@ export default function Skills() {
             title="Formations professionnelle"
           />
           <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-3 md:px-20">
-            {DIPLOMES.map(({ title, description, year, style }, index) => {
+            {DIPLOMES.map(({ title, parcour, year, style }, index) => {
               return (
                 <CardDiplome
                   key={index}
+                  index={index}
                   title={title}
-                  description={description}
+                  parcour={parcour}
                   year={year}
                   style={style}
                 />
