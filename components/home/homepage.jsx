@@ -18,13 +18,13 @@ const Homepage = () => {
     <section id="home">
       <main className="flex h-full flex-col items-center justify-between py-10">
         <div className="w-full">
-          <div className="flex flex-col md:flex-row items-center justify-center md:px-20 ">
+          <div className="flex flex-col mt-20 md:mt-2 md:flex-row items-center justify-center md:px-20  ">
             <div
               data-aos="fade-down"
               data-aos-anchor-placement="center-bottom"
               className="flex-none basis-1/2 "
             >
-              <h3 className="text-white font-medium ">
+              <h3 className="text-white font-medium z-2">
                 {" "}
                 <span className="bg-gray-700 px-10 py-1 rounded">
                   Hello voici mon portfolio
@@ -40,7 +40,7 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="py-4">
-                <div className="flex justify-start items-center gap-6">
+                <div className="flex justify-start items-center gap-6 z-10">
                   <Link href="/#contact">
                     <div className=" rounded w-36 text-center hover:bg-transparent hover:text-gray-500 hover:border hover:border-gray-600 bg-blue-400 text-white p-2">
                       Mon contact{" "}

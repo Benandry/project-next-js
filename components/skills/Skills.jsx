@@ -25,7 +25,7 @@ export default function Skills() {
             icon={faGraduationCap}
             title="Formations professionnelle"
           />
-          <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-20">
+          <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-3 md:px-20">
             {DIPLOMES.map(({ title, description, year, style }, index) => {
               return (
                 <CardDiplome

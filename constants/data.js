@@ -1,13 +1,23 @@
 import { advanced, intermediate, intro } from "@/Images";
 import {
+  faAngular,
+  faCss3,
   faFacebook,
   faGithub,
   faGitlab,
+  faHtml5,
+  faJs,
   faLinkedin,
+  faNode,
+  faPhp,
+  faReact,
+  faSymfony,
 } from "@fortawesome/free-brands-svg-icons";
 import {
+  faC,
   faCode,
   faEnvelope,
+  faFileCode,
   faGraduationCap,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
@@ -47,7 +57,7 @@ export const DIPLOMES_OTHERS = [
   },
 
   {
-    title: "SQL Advanced",
+    title: "JavaScript Intermediare",
     link: "https://www.sololearn.com/certificates/CC-KTNJT4IJ",
     imgSrc: intermediate,
     style: "fade-up",
@@ -64,19 +74,23 @@ export const STACK_BACK = [
   {
     stack_name: "PHP",
     progress: 80,
+    logo: faPhp,
   },
   {
     stack_name: "Javascript",
     progress: 70,
+    logo: faJs,
   },
   {
     stack_name: "Typescript",
     progress: 60,
+    logo: faFileCode,
   },
 
   {
     stack_name: "C++",
     progress: 45,
+    logo: faFileCode,
   },
 ];
 
@@ -84,14 +98,17 @@ export const STACK_FRONT = [
   {
     stack_name: "HTML",
     progress: 80,
+    logo: faHtml5,
   },
   {
     stack_name: "CSS",
     progress: 80,
+    logo: faCss3,
   },
   {
     stack_name: "Javascript",
     progress: 80,
+    logo: faJs,
   },
 ];
 
@@ -99,10 +116,12 @@ export const FRAMEWORKS_BACK = [
   {
     stack_name: "Symfony",
     progress: 80,
+    logo: faSymfony,
   },
   {
     stack_name: "Express JS",
     progress: 60,
+    logo: faNode,
   },
 ];
 
@@ -110,14 +129,17 @@ export const FRAMEWORKS_FRONT = [
   {
     stack_name: "React JS",
     progress: 80,
+    logo: faReact,
   },
   {
     stack_name: "Next JS",
     progress: 60,
+    logo: faReact,
   },
   {
     stack_name: "Angular JS",
     progress: 60,
+    logo: faAngular,
   },
 ];
 
@@ -190,4 +212,19 @@ export const GitLink = [
     link: "https://gitlab.com/Herinandrianina",
     title: "Gitlab",
   },
+];
+
+export const LINK_ = [
+  "Acceuil",
+  "À propos",
+  "Formation",
+  "Techonologie",
+  "Contact",
+];
+
+export const TECH = ["Symfony", "React JS", "Next JS", "Shopify", "Angular"];
+export const CTN = [
+  "034 60 559 29 ",
+  "nandry556@gmail.com",
+  "Herinandrianina Andriamihaingo",
 ];

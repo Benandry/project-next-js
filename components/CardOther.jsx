@@ -4,7 +4,7 @@ export const CardOther = ({ title, link, imageSrc, style }) => {
   return (
     <div
       data-aos={style}
-      className=" mbasis-1/4 md:basis-1/3 shrink rounded  bg-blue-100 shadow-md shadow-blue-100 "
+      className=" mbasis-1/4 md:basis-1/3 shrink rounded  bg-blue-100 shadow-md shadow-blue-100  p-4  shadow-outline-blue-200 "
     >
       <div className="flex flex-col justify-center">
         <div className="text-gray-400 text-sm p-4 ">
@@ -20,7 +20,7 @@ export const CardOther = ({ title, link, imageSrc, style }) => {
           <a
             href={link}
             target="_blank"
-            className="text-gray-600 visited:text-purple-600 ..."
+            className="text-gray-600 visited:text-purple-600 text-lg font-semibold"
           >
             {title}
           </a>

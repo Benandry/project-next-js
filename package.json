@@ -1,13 +1,16 @@
 {
-  "name": "first_next",
+  "name": "portfolio_nandrix",
   "version": "0.1.0",
   "private": true,
+  "description": "This is my portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "author": "Nandrix",
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",

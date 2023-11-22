@@ -9,7 +9,7 @@ import TitlePage from "@/components/TitlePage";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import LinkContact from "@/helpers/LinkContact";
 import { CONTACT_, GitLink } from "@/constants/data";
-export default function Contact() {
+const Contact = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -20,12 +20,12 @@ export default function Contact() {
   return (
     <section id="contact">
       {" "}
-      <main className="flex flex-col items-center justify-between py-10 h-screen">
+      <main className="flex flex-col items-center justify-between py-10">
         <div className="w-full">
           <TitlePage icon={faPhone} title="Mon contact" />
           <div className="flex flex-col md:flex-row justify-center items-center md:px-20">
-            <div data-aos="fade-down" className="basis-1/2 ">
-              <h3 className="text-xl  text-gray-700 font-bold ">
+            <div data-aos="fade-down" className="basis-1/2 px-3 md:p-0">
+              <h3 className="text-lg md:text-xl  text-gray-700 font-bold ">
                 Je suis toujours disponible si mon profil vous intéresse
               </h3>
               <div className="py-4">
@@ -92,4 +92,6 @@ export default function Contact() {
       </main>
     </section>
   );
-}
+};
+
+export default Contact;

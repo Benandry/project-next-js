@@ -25,7 +25,7 @@ export default function Techno() {
       <main className="flex flex-col items-center justify-between py-10 ">
         <div className="w-full">
           <TitlePage icon={faCode} title="Techno utilisée" />
-          <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-2 md:px-20">
+          <div className="flex flex-col md:flex-row justify-center  gap-4 w-full px-3 md:px-20">
             <CardStack
               style="zoom-in-down"
               title="Backend"

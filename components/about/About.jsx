@@ -23,7 +23,7 @@ const About = () => {
         <div data-aos="fade-down" className="px-14">
           <p className="text-center text-gray-600 font-normal ">
             {" "}
-            Je m'appelle{" "}
+            Je suis{" "}
             <span className="font-semibold italic text-blue-400">
               {" "}
               RANDRIAMIHAINGO Herinandrianina Eloi Charly{" "}
