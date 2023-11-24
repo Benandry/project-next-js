@@ -14,6 +14,7 @@ import {
   faSymfony,
 } from "@fortawesome/free-brands-svg-icons";
 import {
+  faBriefcase,
   faC,
   faCode,
   faEnvelope,
@@ -153,6 +154,11 @@ export const NAV_LINK = [
     link: "À propos",
     root: "/#about",
     icon: faInfoCircle,
+  },
+  {
+    link: "Projets",
+    root: "/#projects",
+    icon: faBriefcase,
   },
   {
     link: "Formation",

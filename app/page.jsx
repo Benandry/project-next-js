@@ -4,6 +4,7 @@ import {
   Footer,
   Homepage,
   Navbar,
+  Projects,
   Skills,
   Techno,
 } from "@/components";
@@ -15,6 +16,7 @@ export default function Page() {
       <Navbar />
       <Homepage />
       <About />
+      <Projects />
       <Skills />
       <Techno />
       <Contact />
