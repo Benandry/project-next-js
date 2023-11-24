@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "font.css";
+
+@font-face {
+  font-family: "FormaDjrBanner";
+  src: url("/fonts/FormaDjrBanner.woff2") format("woff2"),
+    /* Replace with the actual file names */ url("/fonts/FormaDjrBanner.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,10 +28,5 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: forma djr banner;
 }

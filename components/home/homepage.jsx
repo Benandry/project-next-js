@@ -36,7 +36,7 @@ const Homepage = () => {
                   Je suis developpeur Fullstack
                 </h4>
                 <div className="text-2xl ">
-                  <h5 className="font-semibold">Symfony et Next Js</h5>
+                  <h5 className="font-semibold">Symfony et React Js</h5>
                 </div>
               </div>
               <div className="py-4">

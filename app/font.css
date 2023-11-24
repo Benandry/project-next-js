@@ -1,0 +1,672 @@
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Regular-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Italic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 1;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Hairline-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 1;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-HairlineItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Thin-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 100;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-ThinItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-ExtraLight-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-ExtraLightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Light-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-LightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Medium-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-MediumItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Bold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-BoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-ExtraBold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-ExtraBoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-Black-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr banner;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Forma DJR Banner"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRBanner-BlackItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Regular-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-Regular-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-Regular-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Regular-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Italic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-Italic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-Italic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Italic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr variable;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Forma DJR Variable"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRVariable-VF-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 1;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Hairline-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 1;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Hairline-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 1;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-HairlineItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 1;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-HairlineItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Thin-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Thin-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 100;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-ThinItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 100;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-ThinItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-ExtraLight-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-ExtraLight-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-ExtraLight-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-ExtraLight-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-ExtraLightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-ExtraLightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-ExtraLightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr variable;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Forma DJR Variable"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRVariable-Italic-VF-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-ExtraLightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Light-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-Light-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-Light-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Light-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-LightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-LightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-LightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-LightItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Medium-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-Medium-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-Medium-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Medium-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-MediumItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-MediumItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-MediumItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-MediumItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Bold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-Bold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-Bold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Bold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-BoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-BoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-BoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-BoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-ExtraBold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-ExtraBold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-ExtraBold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-ExtraBold-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-ExtraBoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-ExtraBoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-ExtraBoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-ExtraBoldItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-Black-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-Black-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-Black-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-Black-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr micro;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Forma DJR Micro"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRMicro-BlackItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr text;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Forma DJR Text"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRText-BlackItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr deck;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Forma DJR Deck"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDeck-BlackItalic-Testing.woff)
+      format("woff");
+}
+@font-face {
+  font-family: forma djr display;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Forma DJR Display"),
+    url(https://fonts.cdnfonts.com/s/92647/FormaDJRDisplay-BlackItalic-Testing.woff)
+      format("woff");
+}

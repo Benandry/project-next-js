@@ -228,3 +228,31 @@ export const CTN = [
   "nandry556@gmail.com",
   "Herinandrianina Andriamihaingo",
 ];
+
+export const competence = [
+  { title: "Maîtrise des langages web front-end (HTML, CSS, JavaScript)" },
+  { title: "Connaissance de Framework PHP Symfony " },
+  { title: "Connaissance de Framework front-end  Javascript(React,Next Js) " },
+  {
+    title:
+      "Connaissance des bases de données SQL et de la conception de bases de données.",
+  },
+  {
+    title: "Connaissance  en SGBD SQL et NoSQL",
+  },
+  {
+    title:
+      "Capable de travailler de manière autonome tout en collaborant efficacement au sein d'une équipe",
+  },
+  {
+    title:
+      "Attitude proactive et capacité à s'adapter rapidement aux nouvelles technologies et aux besoins changeants.",
+  },
+  {
+    title: "Autonome, sérieux, rigoureux et dynamique.",
+  },
+
+  {
+    title: "Connaissance de la méthodologie AGILE ",
+  },
+];

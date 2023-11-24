@@ -5,7 +5,11 @@ import Link from "next/link";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
-import { faComment } from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faComment } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+import { bulb } from "@/Images";
+import { competence } from "@/constants/data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const About = () => {
   useEffect(() => {
     AOS.init({
@@ -20,30 +24,53 @@ const About = () => {
         <div className="w-full">
           <TitlePage icon={faComment} title="À propos de moi" />
         </div>
-        <div data-aos="fade-down" className="px-14">
-          <p className="text-center text-gray-600 font-normal ">
-            {" "}
-            Je suis{" "}
-            <span className="font-semibold italic text-blue-400">
-              {" "}
-              RANDRIAMIHAINGO Herinandrianina Eloi Charly{" "}
-            </span>
-            , et je suis passionné par{" "}
-            <span className="font-semibold"> développement web</span> avec de
-            framework
-            <span className="font-semibold text-blue-400">
-              {" "}
-              Symfony et Next JS{" "}
-            </span>{" "}
-            . Mon parcours dans le développement web a été jalonné par des
-            expériences significatives.
-          </p>
-          <div className="flex justify-center py-7">
-            <Link href="/#contact">
-              <div className="text-center rounded w-36  hover:bg-transparent hover:text-gray-500 hover:border hover:border-gray-600 bg-blue-400 text-white p-2">
-                Mon contact{" "}
+        <div className="px-3 md:border md:border-gray-600 md:shadow-md shadow-gray-400 rounded-md md:mx-20 ">
+          <div className="flex flex-col md:flex-row justify-center items-center m-10   ">
+            <div className="overflow-hidden hidden md:block">
+              <div className="px-3">
+                <Image
+                  src={bulb.src}
+                  width={500}
+                  height={700}
+                  alt="Bulb image"
+                />
               </div>
-            </Link>
+            </div>
+            <div className="md:px-14">
+              <p className="text-start text-sm md:text-md text-gray-600 font-normal leading-7 ">
+                {" "}
+                Je suis{" "}
+                <span className="font-semibold italic text-blue-400">
+                  {" "}
+                  RANDRIAMIHAINGO Herinandrianina Eloi Charly{" "}
+                </span>
+                , et je suis passionné par{" "}
+                <span className="font-semibold"> développement web</span> avec
+                de framework
+                <span className="font-semibold text-blue-400">
+                  {" "}
+                  Symfony et React JS{" "}
+                </span>{" "}
+                . Mon parcours dans le développement web a été jalonné par des
+                expériences significatives.
+              </p>
+              <div className="py-3">
+                <h3 className="text-gray-600 text-xl font-semibold">
+                  {" "}
+                  Mes Qualifications{" "}
+                </h3>
+              </div>
+              <div className="px-5 leading-8 md:leading-6  text-sm">
+                {competence.map(({ title }, index) => {
+                  return (
+                    <div key={index} className="text-gray-600 ">
+                      <FontAwesomeIcon icon={faCheck} className="pr-5" />
+                      {title}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </main>
