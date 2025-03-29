@@ -44,7 +44,7 @@ const Page = () => {
 
             <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-2xl">
               Je crée des applications web performantes et évolutives avec une
-              passion pour l'expérience utilisateur et les architectures
+              passion pour l&apos;expérience utilisateur et les architectures
               robustes.
             </p>
 
