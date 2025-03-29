@@ -6,3 +6,4 @@ export { default as phone_ } from "./phone1.png";
 export { default as my_photo } from "./nandry.png";
 export { default as bulb } from "./bulb.png";
 export { default as briefcase } from "./briefcase.png";
+export { default as skill } from "./skill.png";
