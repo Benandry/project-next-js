@@ -1,31 +1,10 @@
 "use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faServer,
-  faCode,
-  faToolbox,
-  faDatabase, // Ajouté
-} from "@fortawesome/free-solid-svg-icons";
-import {
-  faReact,
-  faNodeJs,
-  faDocker,
-  faGitAlt,
-  faPhp,
-  faSymfony,
-  faLaravel,
-  faBootstrap,
-  faHtml5,
-  faCss3Alt,
-  faGithub,
-  faGitlab,
-  faJira,
-} from "@fortawesome/free-brands-svg-icons";
-import { faCalendar, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Title } from "@/components/Title";
+import { skills } from "../constant/data";
 
 export default function SkillsPage() {
   useEffect(() => {
@@ -35,45 +14,6 @@ export default function SkillsPage() {
       once: true,
     });
   }, []);
-
-  const skills = {
-    backend: {
-      title: "Back-End",
-      icon: faServer,
-      items: [
-        { name: "Symfony", icon: faSymfony },
-        { name: "Laravel", icon: faLaravel },
-        { name: "PHP", icon: faPhp },
-        { name: "MySQL", icon: faDatabase },
-        { name: "PostgreSQL", icon: faDatabase },
-      ],
-    },
-    frontend: {
-      title: "Front-End",
-      icon: faCode,
-      items: [
-        { name: "React/Next.js", icon: faReact },
-        { name: "JavaScript", icon: faCode },
-        { name: "Tailwind CSS", icon: faCode },
-        { name: "Bootstrap", icon: faBootstrap },
-        { name: "HTML5", icon: faHtml5 },
-        { name: "CSS3", icon: faCss3Alt },
-      ],
-    },
-    tools: {
-      title: "Outils",
-      icon: faToolbox,
-      items: [
-        { name: "VSCode", icon: faCode },
-        { name: "Git", icon: faGitAlt },
-        { name: "GitHub", icon: faGithub },
-        { name: "GitLab", icon: faGitlab },
-        { name: "Jira", icon: faJira },
-        { name: "Postman", icon: faCode },
-      ],
-    },
-  };
-
   return (
     <section
       id="skills"
@@ -88,8 +28,10 @@ export default function SkillsPage() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <Title title="Compétences Techniques" />
-
+        <Title
+          title="Compétences Techniques"
+          subtitle="Des compétences solides pour transformer des idées en solutions numériques innovantes"
+        />
         <div className="grid md:grid-cols-3 gap-8" data-aos="fade-up">
           {Object.entries(skills).map(([key, category], index) => (
             <div

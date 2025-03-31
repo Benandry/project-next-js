@@ -5,48 +5,34 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { educations } from "../constant/data";
+import Bar from "@/components/Bar";
 
 export default function EducationPage() {
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
   }, []);
-
-  const educations = [
-    {
-      period: "2023-08 - Présent",
-      degree: "Master 2 en cours - Base de données et génie logiciel",
-      institution: "Centre national de télé-enseignement de Madagascar",
-    },
-    {
-      period: "01/2020 - 02/2022",
-      degree: "License - Base de données et génie logiciel",
-      institution: "Centre national de télé-enseignement de Madagascar",
-    },
-    {
-      period: "2018",
-      degree: "Baccalauréat Général",
-      institution: "Lycée Saint Joseph Ivato Aéroport Antananarivo",
-      details: "Série C",
-    },
-  ];
-
   return (
     <section
       id="education"
       className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
     >
       <div className="container mx-auto mt-10">
-        <Title title="Parcours Académique" />
+        <Title
+          title="Parcours Académique"
+          subtitle="Un voyage d’apprentissage et d’expertise à travers les années"
+        />
 
         <div className="grid md:grid-cols-3 gap-8">
           {educations.map((edu, index) => (
             <div
               key={`${edu.degree}-${index}`}
-              className="relative p-[1px] rounded-2xl bg-gradient-to-br from-cyan-500/30 to-emerald-500/30 hover:shadow-2xl transition-all"
+              className="relative  rounded-2xl bg-gradient-to-br from-cyan-500/30 to-emerald-500/30 hover:shadow-2xl transition-all"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
-              <div className="bg-gray-900/90 backdrop-blur-md rounded-2xl p-6 h-full">
+              <div className="bg-gray-900/90 backdrop-blur-md rounded-2xl p-10 h-full relative">
+                <Bar />
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg">
                     <FontAwesomeIcon
@@ -54,21 +40,21 @@ export default function EducationPage() {
                       className="text-white text-xl"
                     />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-100">
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-100">
                     {edu.degree}
                   </h3>
                 </div>
 
-                <div className="space-y-2 mb-4">
+                <div className="space-y-2 mb-4 pl-4">
                   <div className="flex items-center gap-2 text-cyan-400">
                     <FontAwesomeIcon icon={faCalendar} />
-                    <span className="text-sm">{edu.period}</span>
+                    <span className="text-lg font-semibold">{edu.period}</span>
                   </div>
                   <div className="text-emerald-400 text-sm">
                     {edu.institution}
                   </div>
                   {edu.details && (
-                    <div className="text-gray-300 text-sm">{edu.details}</div>
+                    <div className="text-gray-300 text-lg">{edu.details}</div>
                   )}
                 </div>
               </div>

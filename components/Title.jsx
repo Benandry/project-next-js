@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const Title = ({ title }) => {
+export const Title = ({ title, subtitle }) => {
   return (
     <div className="flex flex-col items-center justify-center space-y-8 mb-20">
       <h2
@@ -10,6 +10,7 @@ export const Title = ({ title }) => {
       >
         {title}
       </h2>
+      <p className="text-white font-thin">{subtitle || "Subtitle goes here"}</p>
     </div>
   );
 };
