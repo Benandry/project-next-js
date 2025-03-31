@@ -1,42 +1,30 @@
 "use client";
 import React from "react";
 import { my_photo } from "@/Images";
-import AOS from "aos";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect } from "react";
-import "aos/dist/aos.css";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
 
 const Page = () => {
-  useEffect(() => {
-    AOS.init({
-      offset: 200,
-      duration: 800,
-    });
-    AOS.refresh();
-  }, []);
-
   return (
     <section id="home" className="relative min-h-screen bg-gray-900">
       <main className="container mx-auto px-4 h-full flex flex-col justify-center py-20 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 xl:gap-24 items-center">
-          {/* Texte de présentation */}
-          <div
-            data-aos="fade-right"
-            data-aos-delay="100"
-            className="space-y-6 md:space-y-8 relative z-10"
-          >
-            <div className="inline-block bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 rounded-lg p-1 animate-gradient-x">
-              <h1 className="text-2xl md:text-3xl font-semibold bg-gray-900 rounded-lg px-8 py-2 text-white">
+          <div className="space-y-6 md:space-y-8 relative z-10">
+            <div className="inline-block bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 rounded-lg p-1">
+              <h1 className="text-lg text-center md:text-3xl font-semibold bg-gray-900 rounded-lg px-4 py-2 text-white">
                 👋 Bienvenue sur mon portfolio
               </h1>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-300 via-cyan-300 to-indigo-300 bg-clip-text text-transparent">
-              Développeur Fullstack
-              <br />
-              <span className="text-xl md:text-2xl font-medium text-gray-400 mt-2 block">
+            <h2 className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">
+              <span className="text-4xl md:text-7xl block">
+                Eloi Charly RANDRIAMIHAINGO
+              </span>
+              <span className="text-2xl md:text-5xl block mt-2 text-gray-300">
+                Développeur Fullstack
+              </span>
+              <span className="text-xl md:text-2xl font-medium text-gray-400 mt-4 block">
                 Spécialisé en <span className="text-emerald-400">Symfony</span>{" "}
                 et <span className="text-cyan-400">React</span>
               </span>
@@ -48,7 +36,6 @@ const Page = () => {
               robustes.
             </p>
 
-            {/* Boutons d'action */}
             <div className="flex flex-wrap gap-4 mt-8">
               <Link
                 href="/contact"
@@ -69,16 +56,11 @@ const Page = () => {
             </div>
           </div>
 
-          {/* Section photo */}
-          <div
-            data-aos="fade-left"
-            data-aos-delay="300"
-            className="relative group flex justify-center"
-          >
+          <div className="relative group flex justify-center">
             <div className="relative w-full max-w-lg aspect-square overflow-hidden rounded-2xl bg-gradient-to-tr from-emerald-400/20 via-cyan-500/20 to-indigo-500/20 backdrop-blur-sm">
               <Image
                 src={my_photo}
-                alt="John Doe - Développeur Fullstack"
+                alt="Eloi Charly RANDRIAMIHAINGO - Développeur Fullstack"
                 width={600}
                 height={600}
                 priority
