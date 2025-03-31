@@ -77,7 +77,7 @@ export default function SkillsPage() {
   return (
     <section
       id="skills"
-      className="relative py-20 md:py-24 bg-gray-900 min-h-screen overflow-hidden"
+      className="relative py-20 md:py-24 bg-gray-900 min-h-screen overflow-hidden px-4 md:px-8"
     >
       {/* Arrière-plan avec motif de grille */}
       <div className="absolute inset-0 bg-grid-pattern opacity-10 z-0" />

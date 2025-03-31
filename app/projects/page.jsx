@@ -54,7 +54,10 @@ export default function ProjectsPage() {
   ];
 
   return (
-    <section id="projects" className="min-h-screen bg-gray-900 py-20 px-4">
+    <section
+      id="projects"
+      className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
+    >
       <div className="container mx-auto mt-8">
         <Title title="Projets Récents" />
 

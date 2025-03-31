@@ -53,7 +53,10 @@ export default function Page() {
   ];
 
   return (
-    <section id="experience" className="min-h-screen bg-gray-900 py-20 px-4">
+    <section
+      id="experience"
+      className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
+    >
       <div className="container mx-auto  mt-10">
         <Title title="Expériences Professionnelles" />
 

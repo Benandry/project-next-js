@@ -31,7 +31,10 @@ export default function EducationPage() {
   ];
 
   return (
-    <section id="education" className="min-h-screen bg-gray-900 py-20 px-4">
+    <section
+      id="education"
+      className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
+    >
       <div className="container mx-auto mt-10">
         <Title title="Parcours Académique" />
 

@@ -8,8 +8,8 @@ import { FaDownload, FaEnvelope } from "react-icons/fa";
 const Page = () => {
   return (
     <section id="home" className="relative min-h-screen bg-gray-900">
-      <main className="container mx-auto px-4 h-full flex flex-col justify-center py-20 md:py-24">
-        <div className="grid md:grid-cols-2 gap-12 xl:gap-24 items-center">
+      <main className="container mx-auto px-4 md:px-8 h-full flex flex-col justify-center py-20 md:py-24">
+        <div className="grid md:grid-cols-2 gap-12  items-center mt-10 md:mt-16">
           <div className="space-y-6 md:space-y-8 relative z-10">
             <div className="inline-block bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 rounded-lg p-1">
               <h1 className="text-lg text-center md:text-3xl font-semibold bg-gray-900 rounded-lg px-4 py-2 text-white">
