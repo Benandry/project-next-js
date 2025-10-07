@@ -4,6 +4,7 @@ import { my_photo } from "@/Images";
 import Image from "next/image";
 import Link from "next/link";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
+import Typewriter from "react-typewriter-effect";
 import Shape from "@/components/Shape";
 
 const Page = () => {
@@ -22,7 +23,16 @@ const Page = () => {
 
             <h2 className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">
               <span className="block text-2xl  md:text-2xl lg:text-4xl">
-                Eloi Charly RANDRIAMIHAINGO
+                <Typewriter
+                    startDelay={200}
+                    cursorColor="#00FFD1"
+                    multiText={['Eloi Charly RANDRIAMIHAINGO']}
+                    multiTextDelay={2000}
+                    typeSpeed={100}
+                    deleteSpeed={50}        
+                    loop={true}            
+                  />
+
               </span>
               <span className="block text-lg sm:text-xl md:text-2xl lg:text-4xl mt-2 text-gray-300">
                 Créateur de solutions digitales robustes 
