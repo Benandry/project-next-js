@@ -1,11 +1,14 @@
-"use client";
+'use client';
+
 import React from "react";
+import dynamic from "next/dynamic";
 import { my_photo } from "@/Images";
 import Image from "next/image";
 import Link from "next/link";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
-import Typewriter from "react-typewriter-effect";
 import Shape from "@/components/Shape";
+
+const Typewriter = dynamic(() => import('react-typewriter-effect'), { ssr: false });
 
 const Page = () => {
   return (
