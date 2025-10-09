@@ -17,6 +17,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Link from "next/link";
+import Shape from "@/components/Shape";
 
 export default function ContactPage() {
   useEffect(() => {
@@ -25,6 +26,7 @@ export default function ContactPage() {
 
   return (
     <section id="contact" className="min-h-screen bg-gray-900 py-20 px-4">
+        <Shape />
       <div className="container mx-auto my-24">
         <div
           className="grid md:grid-cols-2 items-center gap-12"

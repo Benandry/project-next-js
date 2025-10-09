@@ -14,6 +14,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ProjectCard from "@/components/projectCard";
+import Shape from "@/components/Shape";
 
 export default function ProjectsPage() {
   useEffect(() => {
@@ -25,6 +26,7 @@ export default function ProjectsPage() {
       id="projects"
       className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
     >
+      <Shape />
       <div className="container mx-auto mt-8">
         <Title
           title="Projets Récents"

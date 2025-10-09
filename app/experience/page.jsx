@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { experiences } from "../constant/data";
+import Shape from "@/components/Shape";
 
 export default function Page() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Page() {
       id="experience"
       className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
     >
+        <Shape />
       <div className="container mx-auto  mt-10">
         <Title
           title="Expériences Professionnelles"

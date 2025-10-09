@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Title } from "@/components/Title";
 import { skills } from "../constant/data";
+import Shape from "@/components/Shape";
 
 export default function SkillsPage() {
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function SkillsPage() {
       id="skills"
       className="relative py-20 md:py-24 bg-gray-900 min-h-screen overflow-hidden px-4 md:px-8"
     >
+        <Shape />
       {/* Arrière-plan avec motif de grille */}
       <div className="absolute inset-0 bg-grid-pattern opacity-10 z-0" />
 

@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { educations } from "../constant/data";
 import Bar from "@/components/Bar";
+import Shape from "@/components/Shape";
 
 export default function EducationPage() {
   useEffect(() => {
@@ -17,6 +18,7 @@ export default function EducationPage() {
       id="education"
       className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
     >
+        <Shape />
       <div className="container mx-auto mt-10">
         <Title
           title="Parcours Académique"
