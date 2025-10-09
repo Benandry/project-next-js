@@ -12,7 +12,7 @@ const Typewriter = dynamic(() => import('react-typewriter-effect'), { ssr: false
 
 const Page = () => {
   return (
-    <section id="home" className="relative h-screen md:min-h-screen bg-gray-900 overflow-hidden">
+    <section id="home" className="relative max-h-screen md:min-h-screen bg-gray-900 overflow-hidden">
     <Shape />
       <main className="container mx-auto px-4 md:px-8 h-full flex flex-col justify-center py-20 md:py-24 relative z-10 mt-5 md:mt-0">
         <div className="grid md:grid-cols-2 gap-12 items-center sm:mt-6 md:mt-16">
