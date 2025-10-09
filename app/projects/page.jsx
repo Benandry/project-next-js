@@ -24,7 +24,7 @@ export default function ProjectsPage() {
   return (
     <section
       id="projects"
-      className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
+      className="relative py-20 md:py-24 bg-gray-900 min-h-screen overflow-hidden px-4 md:px-8"
     >
       <Shape />
       <div className="container mx-auto mt-8">
@@ -39,6 +39,7 @@ export default function ProjectsPage() {
           spaceBetween={30}
           slidesPerView={3}
           breakpoints={{
+            0: { slidesPerView: 1, spaceBetween: 10 },
             640: {
               slidesPerView: 1,
               spaceBetween: 20,

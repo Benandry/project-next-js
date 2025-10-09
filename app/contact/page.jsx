@@ -25,7 +25,7 @@ export default function ContactPage() {
   }, []);
 
   return (
-    <section id="contact" className="min-h-screen bg-gray-900 py-20 px-4">
+    <section id="contact" className="relative py-20 md:py-24 bg-gray-900 min-h-screen overflow-hidden px-4 md:px-8">
         <Shape />
       <div className="container mx-auto my-24">
         <div

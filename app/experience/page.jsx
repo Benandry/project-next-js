@@ -20,7 +20,7 @@ export default function Page() {
   return (
     <section
       id="experience"
-      className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
+      className="relative py-20 md:py-24 bg-gray-900 min-h-screen overflow-hidden px-4 md:px-8"
     >
         <Shape />
       <div className="container mx-auto  mt-10">
@@ -29,7 +29,7 @@ export default function Page() {
           subtitle="Construire, innover et évoluer à travers chaque mission"
         />
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {experiences.map((exp, index) => (
             <div
               key={`${exp.title}-${exp.company}`}

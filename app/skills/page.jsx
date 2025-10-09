@@ -34,7 +34,7 @@ export default function SkillsPage() {
           title="Compétences Techniques"
           subtitle="Des compétences solides pour transformer des idées en solutions numériques innovantes"
         />
-        <div className="grid md:grid-cols-3 gap-8" data-aos="fade-up">
+        <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
           {Object.entries(skills).map(([key, category], index) => (
             <div
               key={key}

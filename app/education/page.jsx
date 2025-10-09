@@ -16,7 +16,7 @@ export default function EducationPage() {
   return (
     <section
       id="education"
-      className="min-h-screen bg-gray-900 py-20 px-4 md:px-8"
+      className="relative py-20 md:py-24 bg-gray-900 min-h-screen overflow-hidden px-4 md:px-8"
     >
         <Shape />
       <div className="container mx-auto mt-10">
@@ -25,7 +25,7 @@ export default function EducationPage() {
           subtitle="Un voyage d’apprentissage et d’expertise à travers les années"
         />
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {educations.map((edu, index) => (
             <div
               key={`${edu.degree}-${index}`}
