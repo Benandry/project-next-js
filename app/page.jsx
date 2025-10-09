@@ -12,9 +12,9 @@ const Typewriter = dynamic(() => import('react-typewriter-effect'), { ssr: false
 
 const Page = () => {
   return (
-    <section id="home" className="relative min-h-screen bg-gray-900 overflow-hidden">
+    <section id="home" className="relative h-screen md:min-h-screen bg-gray-900 overflow-hidden">
     <Shape />
-      <main className="container mx-auto px-4 md:px-8 h-full flex flex-col justify-center py-20 md:py-24 relative z-10">
+      <main className="container mx-auto px-4 md:px-8 h-full flex flex-col justify-center py-20 md:py-24 relative z-10 mt-5 md:mt-0">
         <div className="grid md:grid-cols-2 gap-12 items-center sm:mt-6 md:mt-16">
           {/* Texte */}
           <div className="space-y-6 md:space-y-8">
@@ -52,7 +52,7 @@ const Page = () => {
             <div className="flex flex-wrap gap-4 mt-6 md:mt-8">
               <Link
                 href="/contact"
-                className="flex items-center gap-2 px-4 py-2 md:px-6 md:py-3 rounded-full bg-gradient-to-r from-emerald-500 to-cyan-600 hover:from-emerald-400 hover:to-cyan-500 text-white font-semibold transition-transform duration-300 hover:scale-105 shadow-lg text-sm sm:text-base md:text-lg"
+                className="flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 rounded-full bg-gradient-to-r from-emerald-500 to-cyan-600 hover:from-emerald-400 hover:to-cyan-500 text-white font-semibold transition-transform duration-300 hover:scale-105 shadow-lg text-sm sm:text-base md:text-lg"
               >
                 <FaEnvelope className="text-lg md:text-xl" />
                 Contactez-moi
@@ -61,7 +61,7 @@ const Page = () => {
               <Link
                 href="/cv.pdf"
                 download
-                className="flex items-center gap-2 px-4 py-2 md:px-6 md:py-3 rounded-full border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 hover:text-white font-semibold transition-transform duration-300 hover:scale-105 shadow-lg text-sm sm:text-base md:text-lg"
+                className="flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 rounded-full border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 hover:text-white font-semibold transition-transform duration-300 hover:scale-105 shadow-lg text-sm sm:text-base md:text-lg"
               >
                 <FaDownload className="text-lg md:text-xl" />
                 Télécharger CV
@@ -71,7 +71,7 @@ const Page = () => {
 
           {/* Image */}
           <div className="relative flex justify-center group cursor-pointer">
-            <div className="relative w-64 sm:w-80 md:w-full max-w-md aspect-square overflow-hidden rounded-2xl 
+            <div className="relative w-72 sm:w-80 md:w-full max-w-md aspect-square overflow-hidden rounded-2xl 
                             bg-gradient-to-tr from-emerald-400/20 via-cyan-500/20 to-indigo-500/20 
                             backdrop-blur-sm transition-transform duration-500 transform-gpu
                             hover:scale-105 hover:shadow-xl">

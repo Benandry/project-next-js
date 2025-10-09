@@ -33,7 +33,7 @@ export default function Header() {
           <nav className="bg-gray-900/90 backdrop-blur-md md:rounded-full px-4 md:px-6 py-2.5">
             <div className="flex justify-between items-center md:hidden px-2">
               <Link href="/" className="text-white font-bold">
-                Portfolio
+                R. Eloi Charly
               </Link>
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
